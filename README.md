@@ -25,15 +25,25 @@ npm i fundamental-constants -E
 
 ### Date and Time
 
-| Constant name         | Value |
-|-----------------------|-------|
-| HOURS_PER_STELLAR_DAY | 24    |
-| MAXIMAL_DAYS_IN_MONTH | 31    |
+| Constant name           | Value |
+|-------------------------|-------|
+| `HOURS_PER_STELLAR_DAY` | 24    |
+| `MAXIMAL_DAYS_IN_MONTH` | 31    |
+| `MINUTES_PER_HOUR`      | 60    |
+| `SECONDS_PER_MINUTE`    | 60    |
+
+
+#### ISO8601
+
+| Constant name                                     | Value |
+|---------------------------------------------------|-------|
+| `CHARACTERS_COUNT_IN_FULL_ISO8601_STRING`         | 24    |
+| `CHARACTERS_COUNT_OF_DATE_PART_IN_ISO8601_STRING` | 10    |
 
 
 ### Email
 
 
-| Constant name                             | Value |
-|-------------------------------------------|-------|
-| MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS | 3     |
+| Constant name                               | Value |
+|---------------------------------------------|-------|
+| `MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 3     |
