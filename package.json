@@ -1,10 +1,9 @@
 {
   "name": "fundamental-constants",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Fundamental constants and enumerations",
   "keywords": [
-    "handlebars",
-    "helpers"
+    "constants"
   ],
   "author": {
     "name": "Takeshi Tokugawa",
