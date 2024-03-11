@@ -44,6 +44,7 @@ npm i fundamental-constants -E
 ### Email
 
 
-| Constant name                               | Value |
-|---------------------------------------------|-------|
-| `MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 3     |
+| Constant name                               | Value                                                  |
+|---------------------------------------------|--------------------------------------------------------|
+| `EMAIL_ADDRESS_VALID_PATTERN`               | `/^\w+(?:[.-]?\w+)*@\w+(?:[.-]?\w+)*(?:\.\w{2,3})+$/u` |
+| `MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 3                                                      |
