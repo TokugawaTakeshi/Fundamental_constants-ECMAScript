@@ -25,10 +25,41 @@ npm i fundamental-constants -E
 
 | Constant name           | Value |
 |-------------------------|-------|
+| `DAYS_COUNT_IN_WEEK`    | 7     |
 | `HOURS_PER_STELLAR_DAY` | 24    |
 | `MAXIMAL_DAYS_IN_MONTH` | 31    |
 | `MINUTES_PER_HOUR`      | 60    |
 | `SECONDS_PER_MINUTE`    | 60    |
+
+#### Enumerations
+##### `DaysOfWeekNames`
+
+| Key       | Value       |
+|-----------|-------------|
+| sunday    | "SUNDAY"    |
+| monday    | "MONDAY"    |
+| tuesday   | "TUESDAY"   |
+| wednesday | "WEDNESDAY" |
+| thursday  | "THURSDAY"  |
+| friday    | "FRIDAY"    |
+| saturday  | "SATURDAY"  |
+
+##### `MonthsNames`
+
+| Key       | Value       |
+|-----------|-------------|
+| january   | "JANUARY"   |
+| february  | "FEBRUARY"  |
+| march     | "MARCH"     |
+| april     | "APRIL"     |
+| may       | "MAY"       |
+| june      | "JUNE"      |
+| july      | "JULY"      |
+| august    | "AUGUST"    |
+| september | "SEPTEMBER" |
+| october   | "OCTOBER"   |
+| november  | "NOVEMBER"  |
+| december  | "DECEMBER"  |
 
 
 #### ISO8601
