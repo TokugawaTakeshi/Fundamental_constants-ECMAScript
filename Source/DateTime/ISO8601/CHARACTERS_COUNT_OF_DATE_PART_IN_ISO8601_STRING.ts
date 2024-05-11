@@ -1,1 +1,0 @@
-export const CHARACTERS_COUNT_OF_DATE_PART_IN_ISO8601_STRING: number = 10;
