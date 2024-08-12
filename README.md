@@ -25,14 +25,16 @@ npm i fundamental-constants -E
 
 ### Date and Time
 
-| Constant name                | Value |
-|------------------------------|-------|
-| `DAYS_COUNT_IN_WEEK`         | 7     |
-| `HOURS_COUNT_IN_STELLAR_DAY` | 24    |
-| `MAXIMAL_DAYS_IN_MONTH`      | 31    |
-| `MINUTES_COUNT_IN_HOUR`      | 60    |
-| `MONTHS_COUNT_IN_YEAR`       | 12    |
-| `SECONDS_COUNT_IN_MINUTE`    | 60    |
+| Constant name                                | Value             |
+|----------------------------------------------|-------------------|
+| `DAYS_COUNT_IN_WEEK`                         | 7                 |
+| `HOURS_COUNT_IN_STELLAR_DAY`                 | 24                |
+| `MAXIMAL_DAYS_IN_MONTH`                      | 31                |
+| `MAXIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT` | 8640000000000000  |
+| `MINIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT` | -8640000000000000 |
+| `MINUTES_COUNT_IN_HOUR`                      | 60                |
+| `MONTHS_COUNT_IN_YEAR`                       | 12                |
+| `SECONDS_COUNT_IN_MINUTE`                    | 60                |
 
 #### Enumerations
 ##### `DaysOfWeekNames`
