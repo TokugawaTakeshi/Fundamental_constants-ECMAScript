@@ -8,6 +8,8 @@ export { DAYS_COUNT_IN_WEEK } from "./DateTime/DAYS_COUNT_IN_WEEK";
 export { DaysOfWeekNames } from "./DateTime/DaysOfWeekNames";
 export { HOURS_COUNT_IN_STELLAR_DAY } from "./DateTime/HOURS_COUNT_IN_STELLAR_DAY";
 export { MAXIMAL_DAYS_IN_MONTH } from "./DateTime/MAXIMAL_DAYS_IN_MONTH";
+export { MAXIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT } from "./DateTime/MAXIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT";
+export { MINIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT } from "./DateTime/MINIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT";
 export { MINUTES_COUNT_IN_HOUR } from "./DateTime/MINUTES_COUNT_IN_HOUR";
 export { MONTHS_COUNT_IN_YEAR } from "./DateTime/MONTHS_COUNT_IN_YEAR";
 export { MonthsNames } from "./DateTime/MonthsNames";
