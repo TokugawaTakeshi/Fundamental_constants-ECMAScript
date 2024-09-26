@@ -1,0 +1,33 @@
+/* [ Reference ] https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses */
+
+export enum ClientErrorsHTTP_StatusCodes {
+  badRequest = 400,
+  unauthorized = 401,
+  paymentRequired = 402,
+  forbidden = 403,
+  notFound = 404,
+  methodNotAllowed = 405,
+  notAcceptable = 406,
+  proxyAuthenticationRequired = 407,
+  requestTimeout = 408,
+  conflict = 409,
+  gone = 410,
+  lengthRequired = 411,
+  preconditionFailed = 412,
+  payloadTooLarge = 413,
+  URI_TooLong = 414,
+  unsupportedMediaType = 415,
+  rangeNotSatisfiable = 416,
+  expectationFailed = 417,
+  IAmATeapot = 418,
+  misdirectedRequest = 421,
+  unprocessableEntity = 422,
+  locked = 423,
+  failedDependency = 424,
+  tooEarly = 425,
+  upgradeRequired = 426,
+  preconditionRequired = 428,
+  tooManyRequests = 429,
+  requestHeaderFieldsTooLarge = 431,
+  unavailableForLegalReasons = 451
+}
