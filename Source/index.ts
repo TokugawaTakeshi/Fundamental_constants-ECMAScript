@@ -18,8 +18,21 @@ export { ServerErrorsHTTP_StatusCodes } from "./ComputerNetworking/HTTP_StatusCo
 
 
 /* ━━━ Data Types ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-export { IntegerDataTypes } from "./DataTypes/IntegerDataTypes";
+/* ─── Integer ────────────────────────────────────────────────────────────────────────────────────────────────────── */
+export { IntegerDataTypes } from "./DataTypes/Integer/IntegerDataTypes";
+export { MAXIMAL_VALUE_OF_1_BYTE_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_1_BYTE_INTEGER";
+export { MAXIMAL_VALUE_OF_2_BYTES_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_2_BYTES_INTEGER";
+export { MAXIMAL_VALUE_OF_3_BYTES_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_3_BYTES_INTEGER";
+export { MAXIMAL_VALUE_OF_4_BYTES_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_4_BYTES_INTEGER";
+export { MAXIMAL_VALUE_OF_8_BYTES_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_8_BYTES_INTEGER";
+export { MINIMAL_VALUE_OF_1_BYTE_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_1_BYTE_INTEGER";
+export { MINIMAL_VALUE_OF_2_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_2_BYTES_INTEGER";
+export { MINIMAL_VALUE_OF_3_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_3_BYTES_INTEGER";
+export { MINIMAL_VALUE_OF_4_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_4_BYTES_INTEGER";
+export { MINIMAL_VALUE_OF_8_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_8_BYTES_INTEGER";
 
+/* ─── Floating Point ─────────────────────────────────────────────────────────────────────────────────────────────── */
+export { FloatingPointDataTypes } from "./DataTypes/FloatingPointDataTypes";
 
 /* ━━━ Date & Time ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 export { DAYS_COUNT_IN_WEEK } from "./DateTime/DAYS_COUNT_IN_WEEK";

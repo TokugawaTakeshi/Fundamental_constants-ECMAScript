@@ -1,0 +1,1 @@
+export const MAXIMAL_VALUE_OF_8_BYTES_INTEGER: bigint = BigInt("9223372036854775807");

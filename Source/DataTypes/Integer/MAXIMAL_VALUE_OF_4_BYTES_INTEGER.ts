@@ -1,0 +1,1 @@
+export const MAXIMAL_VALUE_OF_4_BYTES_INTEGER: number = 2_147_483_647;

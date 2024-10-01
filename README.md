@@ -205,13 +205,41 @@ npm i fundamental-constants -E
 ### DataTypes
 #### IntegerDataTypes
 
-| Key                      | Value                  |
-|--------------------------|------------------------|
-| `OneByte\_\_8\_Bits`     | "1\_BYTE\_\_8\_BITS"   |
-| `TwoBytes\_\_16\_Bits`   | "2\_BYTES\_\_16\_BITS" |
-| `ThreeBytes\_\_24\_Bits` | "3\_BYTES\_\_24\_BITS" |
-| `FourBytes\_\_32\_Bits`  | "4\_BYTES\_\_32\_BITS" |
-| `EightBytes\_\_64\_Bits` | "8\_BYTES\_\_64\_BITS" |
+##### `IntegerDataTypes` enumeration
+
+| Key        | Value               |
+|------------|---------------------|
+| oneByte    | "1\_BYTE\_INTEGER"  |
+| twoBytes   | "2\_BYTES\_INTEGER" |
+| threeBytes | "3\_BYTES\_INTEGER" |
+| fourBytes  | "4\_BYTES\_INTEGER" |
+| eightBytes | "8\_BYTES\_INTEGER" |
+
+
+##### Minimal and Maximal Values
+
+| Constant Name                      | Value                      |
+|------------------------------------|----------------------------|
+| `MAXIMAL_VALUE_OF_1_BYTE_INTEGER`  | 127                        |
+| `MINIMAL_VALUE_OF_1_BYTE_INTEGER`  | -128                       |
+| `MAXIMAL_VALUE_OF_2_BYTES_INTEGER` | 32,767                     |
+| `MINIMAL_VALUE_OF_2_BYTES_INTEGER` | -32,768                    |
+| `MAXIMAL_VALUE_OF_3_BYTES_INTEGER` | 8,388,607                  |
+| `MINIMAL_VALUE_OF_3_BYTES_INTEGER` | -8,388,608                 |
+| `MAXIMAL_VALUE_OF_4_BYTES_INTEGER` | 2,147,483,647              |
+| `MINIMAL_VALUE_OF_4_BYTES_INTEGER` | -2,147,483,648             |
+| `MAXIMAL_VALUE_OF_8_BYTES_INTEGER` | 9,223,372,036,854,775,807  |
+| `MINIMAL_VALUE_OF_8_BYTES_INTEGER` | -9,223,372,036,854,775,808 |
+
+
+#### Floating Point Data Types
+##### `FloatingPointDataTypes`
+
+| Key          | Value                     |
+|--------------|---------------------------|
+| fourBytes    | "4\_BYTES\_FLOAT\_POINT"  |
+| eightBytes   | "8\_BYTES\_FLOAT\_POINT"  |
+| sixteenBytes | "16\_BYTES\_FLOAT\_POINT" |
 
 
 ### Date and Time
