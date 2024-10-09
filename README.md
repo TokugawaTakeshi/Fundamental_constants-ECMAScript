@@ -232,6 +232,34 @@ npm i fundamental-constants -E
 | `MINIMAL_VALUE_OF_8_BYTES_INTEGER` | -9,223,372,036,854,775,808 |
 
 
+##### Class `Integer` and Interface `IntegerConstructor`
+
+The analogue of `Number` and `NumberConstructor` respectively pointing that target number is integer.
+Both class `Integer` and interface `IntegerConstructor` are empty.
+Intended to be used for describing of business rules alongside with native types like `String` and `StringConstructor`:
+
+```typescript
+namespace Resident {
+
+  export namespace Age {
+    export const TYPE: IntegerConstructor = Integer;
+    export const IS_REQUIRED: boolean = true;
+    export const MINIMAL_VALUE: number = 0;
+    export const MAXIMAL_VALUE: number = 200;
+  }
+
+  // Another examle
+  export namespace Birthplace {
+    export const TYPE: StringConstructor = String;
+    export const IS_REQUIRED: boolean = true;
+    export const MINIMAL_CHARACTERS_COUNT: number = 1;
+    export const MAXIMAL_CHARACETRS_COUNT: number = 255;
+  }
+  
+}
+```
+
+
 #### Floating Point Data Types
 ##### `FloatingPointDataTypes`
 

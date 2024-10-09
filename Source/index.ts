@@ -19,6 +19,8 @@ export { ServerErrorsHTTP_StatusCodes } from "./ComputerNetworking/HTTP_StatusCo
 
 /* ━━━ Data Types ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 /* ─── Integer ────────────────────────────────────────────────────────────────────────────────────────────────────── */
+export { Integer } from "./DataTypes/Integer/Integer";
+export type { IntegerConstructor } from "./DataTypes/Integer/IntegerConstructor";
 export { IntegerDataTypes } from "./DataTypes/Integer/IntegerDataTypes";
 export { MAXIMAL_VALUE_OF_1_BYTE_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_1_BYTE_INTEGER";
 export { MAXIMAL_VALUE_OF_2_BYTES_INTEGER } from "./DataTypes/Integer/MAXIMAL_VALUE_OF_2_BYTES_INTEGER";
