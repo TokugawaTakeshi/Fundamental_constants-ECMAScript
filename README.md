@@ -218,18 +218,23 @@ npm i fundamental-constants -E
 
 ##### Minimal and Maximal Values
 
-| Constant Name                      | Value                      |
-|------------------------------------|----------------------------|
-| `MAXIMAL_VALUE_OF_1_BYTE_INTEGER`  | 127                        |
-| `MINIMAL_VALUE_OF_1_BYTE_INTEGER`  | -128                       |
-| `MAXIMAL_VALUE_OF_2_BYTES_INTEGER` | 32,767                     |
-| `MINIMAL_VALUE_OF_2_BYTES_INTEGER` | -32,768                    |
-| `MAXIMAL_VALUE_OF_3_BYTES_INTEGER` | 8,388,607                  |
-| `MINIMAL_VALUE_OF_3_BYTES_INTEGER` | -8,388,608                 |
-| `MAXIMAL_VALUE_OF_4_BYTES_INTEGER` | 2,147,483,647              |
-| `MINIMAL_VALUE_OF_4_BYTES_INTEGER` | -2,147,483,648             |
-| `MAXIMAL_VALUE_OF_8_BYTES_INTEGER` | 9,223,372,036,854,775,807  |
-| `MINIMAL_VALUE_OF_8_BYTES_INTEGER` | -9,223,372,036,854,775,808 |
+| Constant Name                               | Value                      |
+|---------------------------------------------|----------------------------|
+| `MAXIMAL_VALUE_OF_1_BYTE_INTEGER`           | 127                        |
+| `MAXIMAL_VALUE_OF_2_BYTES_INTEGER`          | 32,767                     |
+| `MAXIMAL_VALUE_OF_3_BYTES_INTEGER`          | 8,388,607                  |
+| `MAXIMAL_VALUE_OF_4_BYTES_INTEGER`          | 2,147,483,647              |
+| `MAXIMAL_VALUE_OF_8_BYTES_INTEGER`          | 9,223,372,036,854,775,807  |
+| `MAXIMAL_VALUE_OF_UNSIGNED_1_BYTE_INTEGER`  | 255                        |
+| `MAXIMAL_VALUE_OF_UNSIGNED_2_BYTES_INTEGER` | 65,535                     |
+| `MAXIMAL_VALUE_OF_UNSIGNED_3_BYTES_INTEGER` | 16,777,215                 |
+| `MAXIMAL_VALUE_OF_UNSIGNED_4_BYTES_INTEGER` | 4,294,967,295              |
+| `MAXIMAL_VALUE_OF_UNSIGNED_8_BYTES_INTEGER` | 18,446,744,073,709,551,615 |
+| `MINIMAL_VALUE_OF_1_BYTE_INTEGER`           | -128                       |
+| `MINIMAL_VALUE_OF_2_BYTES_INTEGER`          | -32,768                    |
+| `MINIMAL_VALUE_OF_3_BYTES_INTEGER`          | -8,388,608                 |
+| `MINIMAL_VALUE_OF_4_BYTES_INTEGER`          | -2,147,483,648             |
+| `MINIMAL_VALUE_OF_8_BYTES_INTEGER`          | -9,223,372,036,854,775,808 |
 
 
 ##### Class `Integer` and Interface `IntegerConstructor`
@@ -328,4 +333,12 @@ namespace Resident {
 | Constant name                               | Value                                                  |
 |---------------------------------------------|--------------------------------------------------------|
 | `EMAIL_ADDRESS_VALID_PATTERN`               | `/^\w+(?:[.-]?\w+)*@\w+(?:[.-]?\w+)*(?:\.\w{2,3})+$/u` |
+| `MAXIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 320                                                    |
 | `MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 3                                                      |
+
+
+### Other
+
+| Constant name                                              | Value |
+|------------------------------------------------------------|-------|
+| `FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4` | 36    |

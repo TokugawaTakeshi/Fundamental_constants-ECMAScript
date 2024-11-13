@@ -1,0 +1,1 @@
+export const MAXIMAL_VALUE_OF_UNSIGNED_2_BYTES_INTEGER: number = 65535;
