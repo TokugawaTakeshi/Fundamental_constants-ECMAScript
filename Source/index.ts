@@ -58,3 +58,8 @@ export { CHARACTERS_COUNT_IN_FULL_ISO8601_STRING } from "./DateTime/ISO8601/CHAR
 export { EMAIL_ADDRESS_VALID_PATTERN } from "./EmailAddress/EMAIL_ADDRESS_VALID_PATTERN";
 export { MAXIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS } from "./EmailAddress/MAXIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS";
 export { MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS } from "./EmailAddress/MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS";
+
+
+/* ━━━ Other ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+export { FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4 } from
+    "./Other/FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4";
