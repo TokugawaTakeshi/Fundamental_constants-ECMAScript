@@ -65,6 +65,7 @@ export { MAXIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS } from "./EmailAddress/MAXIMA
 export { MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS } from "./EmailAddress/MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS";
 
 
-/* ━━━ Other ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━ IDs ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 export { FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4 } from
-    "./Other/FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4";
+    "./IDs/FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4";
+export { FIXED_CHARACTERS_COUNT_IN_NANO_ID } from "./IDs/FIXED_CHARACTERS_COUNT_IN_NANO_ID";

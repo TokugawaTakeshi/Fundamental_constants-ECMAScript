@@ -337,8 +337,9 @@ namespace Resident {
 | `MINIMAL_CHARACTERS_COUNT_OF_EMAIL_ADDRESS` | 3                                                      |
 
 
-### Other
+### IDs
 
 | Constant name                                              | Value |
 |------------------------------------------------------------|-------|
 | `FIXED_CHARACTERS_COUNT_IN_UNIVERSAL_UNIQUE_ID__VERSION_4` | 36    |
+| `FIXED_CHARACTERS_COUNT_IN_NANO_ID`                        | 21    |
