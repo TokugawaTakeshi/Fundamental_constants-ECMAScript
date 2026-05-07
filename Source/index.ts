@@ -5,7 +5,7 @@ export { HTTPS_DEFAULT_PORT } from "./ComputerNetworking/HTTPS_DEFAULT_PORT";
 export { NETWORK_PORT_MAXIMAL_VALUE } from "./ComputerNetworking/NETWORK_PORT_MAXIMAL_VALUE";
 export { NETWORK_PORT_MINIMAL_VALUE } from "./ComputerNetworking/NETWORK_PORT_MINIMAL_VALUE";
 
-/* ─── HTTP Status Codes ──────────────────────────────────────────────────────────────────────────────────────────── */
+/* ┅┅┅ HTTP Status Codes ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅ */
 export { HTTP_StatusCodes } from "./ComputerNetworking/HTTP_StatusCodes/HTTP_StatusCodes";
 export { InformationalResponsesHTTP_StatusCodes } from
     "./ComputerNetworking/HTTP_StatusCodes/InformationalResponsesHTTP_StatusCodes";
@@ -18,7 +18,11 @@ export { ServerErrorsHTTP_StatusCodes } from "./ComputerNetworking/HTTP_StatusCo
 
 
 /* ━━━ Data Types ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-/* ─── Integer ────────────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ┅┅┅ Float ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅ */
+export { Float } from "./DataTypes/FloatingPoint/Float";
+export { FloatConstructor } from "./DataTypes/FloatingPoint/FloatConstructor";
+
+/* ┅┅┅ Integer ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅ */
 export { Integer } from "./DataTypes/Integer/Integer";
 export type { IntegerConstructor } from "./DataTypes/Integer/IntegerConstructor";
 export { IntegerDataTypes } from "./DataTypes/Integer/IntegerDataTypes";
@@ -39,7 +43,7 @@ export { MINIMAL_VALUE_OF_4_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VA
 export { MINIMAL_VALUE_OF_8_BYTES_INTEGER } from "./DataTypes/Integer/MINIMAL_VALUE_OF_8_BYTES_INTEGER";
 
 /* ─── Floating Point ─────────────────────────────────────────────────────────────────────────────────────────────── */
-export { FloatingPointDataTypes } from "./DataTypes/FloatingPointDataTypes";
+export { FloatingPointDataTypes } from "./DataTypes/FloatingPoint/FloatingPointDataTypes";
 
 /* ━━━ Date & Time ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 export { DAYS_COUNT_IN_WEEK } from "./DateTime/DAYS_COUNT_IN_WEEK";
@@ -51,6 +55,7 @@ export { MINIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT } from "./DateTime/MINIMAL_S
 export { MINUTES_COUNT_IN_HOUR } from "./DateTime/MINUTES_COUNT_IN_HOUR";
 export { MONTHS_COUNT_IN_YEAR } from "./DateTime/MONTHS_COUNT_IN_YEAR";
 export { MonthsNames } from "./DateTime/MonthsNames";
+export { NOON_HOUR_NUMBER_IN_24_HOUR_FORMAT } from "./DateTime/NOON_HOUR_NUMBER_IN_24_HOUR_FORMAT";
 export { SECONDS_COUNT_IN_MINUTE } from "./DateTime/SECONDS_COUNT_IN_MINUTE";
 
 /* ─── ISO 8601 ───────────────────────────────────────────────────────────────────────────────────────────────────── */

@@ -1,8 +1,10 @@
 Fundamental constants and enumerations.
 
-Some of their values are commonly known, for example the `HOURS_COUNT_IN_STELLAR_DAY` is **24** and `MAXIMAL_DAYS_IN_MONTH` is **31**.
+Some of their values are commonly known, for example, the `HOURS_COUNT_IN_STELLAR_DAY` is **24** and 
+  `MAXIMAL_DAYS_IN_MONTH` is **31**.
 However, without being stored to the constants with clear names, it will be the 
   [magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)).
+Such constants even should be out-of-box in programming language.
 
 
 ## Installation
@@ -266,6 +268,33 @@ namespace Resident {
 
 
 #### Floating Point Data Types
+##### Class `Float` and Interface `FloatConstructor`
+
+The analogue of `Number` and `NumberConstructor` respectively pointing that target number is Float.
+Both class `Float` and interface `FloatConstructor` are empty.
+Intended to be used for describing of business rules alongside with native types like `String` and `StringConstructor`:
+
+```typescript
+namespace Resident {
+
+  export namespace TaxRate {
+    export const TYPE: FloatConstructor = Float;
+    export const IS_REQUIRED: boolean = true;
+    export const MINIMAL_VALUE: number = 0;
+    export const MAXIMAL_VALUE: number = 1;
+  }
+
+  // Another examle
+  export namespace Birthplace {
+    export const TYPE: StringConstructor = String;
+    export const IS_REQUIRED: boolean = true;
+    export const MINIMAL_CHARACTERS_COUNT: number = 1;
+    export const MAXIMAL_CHARACETRS_COUNT: number = 255;
+  }
+  
+}
+```
+
 ##### `FloatingPointDataTypes`
 
 | Key          | Value                     |
@@ -286,6 +315,7 @@ namespace Resident {
 | `MINIMAL_SUPPORTED_UNIX_MILLISECONDS_AMOUNT` | -8640000000000000 |
 | `MINUTES_COUNT_IN_HOUR`                      | 60                |
 | `MONTHS_COUNT_IN_YEAR`                       | 12                |
+| `NOON_HOUR_NUMBER_IN_24_HOUR_FORMAT`         | 12                |
 | `SECONDS_COUNT_IN_MINUTE`                    | 60                |
 
 #### Enumerations
