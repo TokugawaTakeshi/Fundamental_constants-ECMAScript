@@ -1,0 +1,1 @@
+export const MINIMAL_DIGITS_COUNT_IN_JAPANESE_PHONE_NUMBER: number = 10;
