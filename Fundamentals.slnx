@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="CSharp/Core/Fundamentals-CShrarp-Core.csproj" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CPP/Core/Core.vcxproj" Id="971383f0-6e1a-4e94-b5bd-d1c2f5d2e66d" />
+  <Project Path="CSharp/Core/CShrarp-Core.csproj" />
 </Solution>
